@@ -67,7 +67,7 @@ background: linear-gradient(to right, #0ED2F7, #B2FEFA);
   border-color: #777;
 }
 
-.input-form.success input {
+.input-form.success  {
   border-color: #2ecc71;
 }
 
@@ -80,7 +80,7 @@ background: linear-gradient(to right, #0ED2F7, #B2FEFA);
   position: absolute;
   top: 40px;
   right: 10px;
-}
+} 
 
 
 
