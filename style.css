@@ -7,15 +7,15 @@
 body {
   background: #B2FEFA;
 
-background: linear-gradient(to right, #0ED2F7, #B2FEFA);
-  
+  background: linear-gradient(to right, #0ED2F7, #B2FEFA);
+
   font-family: 'Poppins', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   margin: 0;
-  
+
 }
 
 .container {
@@ -67,8 +67,12 @@ background: linear-gradient(to right, #0ED2F7, #B2FEFA);
   border-color: #777;
 }
 
-.input-form.success  {
+.input-form.success input {
   border-color: #2ecc71;
+}
+
+.input-form.success small {
+  visibility: hidden;
 }
 
 .input-form.fail input {
@@ -80,10 +84,7 @@ background: linear-gradient(to right, #0ED2F7, #B2FEFA);
   position: absolute;
   top: 40px;
   right: 10px;
-} 
-
-
-
+}
 
 
 .input-form small {

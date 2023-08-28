@@ -24,35 +24,37 @@
     <div class="header">
       <h1>Create Account</h1>
     </div>
-    <form action="#" class="form" id="form">
-      <div class="input-form">
+    <form class="form" id="form">
+      <div class="input-form" id="username-input-field">
         <label for="username">Username</label>
         <input type="text" placeholder="Enter Username" id="username">
         
-        <small>Error Message</small>
+        <small class="username-errors"
+        id="username-errors">Username cannot be empty</small>
       </div>
 
-      <div class="input-form">
+      <div class="input-form" id="email-input-field">
         <label for="Email">Email</label>
         <input type="email" placeholder="Enter Email" id="email">
-        
-        <small>Error Message</small>
+
+        <small class="email-error" id="email-error">Error Message</small>
       </div>
 
-      <div class="input-form">
+      <div class="input-form"
+      id="password-input-field">
         <label for="Password">Password</label>
         <input type="password" placeholder="Password" id="password">
         
-        <small>Error Message</small>
+        <small class="password-error" id="password-error">Error Message</small>
       </div>
 
-      <div class="input-form">
+      <div class="input-form" id="confirm-pass-input-field">
         <label for="Password check">Password Check</label>
         <input type="password" placeholder="Password Check" id="check">
         
-        <small>Error Message</small>
+        <small class="check-password-error" id="check-password-error">Error Message</small>
       </div>
-      <button>Submit</button>
+      <button type="submit" class="submit-btn" id="submit-btn">Submit</button>
     </form>
   </div>
 
